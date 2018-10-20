@@ -1,0 +1,6 @@
+framework module Pods_Auris {
+  umbrella header "Pods-Auris-umbrella.h"
+
+  export *
+  module * { export * }
+}
