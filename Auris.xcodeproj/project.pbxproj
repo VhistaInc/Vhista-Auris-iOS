@@ -8,25 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		0D3E8F64217AE881006DE12D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3E8F63217AE881006DE12D /* AppDelegate.swift */; };
-		0D3E8F66217AE881006DE12D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3E8F65217AE881006DE12D /* ViewController.swift */; };
 		0D3E8F69217AE881006DE12D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D3E8F67217AE881006DE12D /* Main.storyboard */; };
 		0D3E8F6C217AE881006DE12D /* Auris.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0D3E8F6A217AE881006DE12D /* Auris.xcdatamodeld */; };
 		0D3E8F6E217AE884006DE12D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D3E8F6D217AE884006DE12D /* Assets.xcassets */; };
 		0D3E8F71217AE884006DE12D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D3E8F6F217AE884006DE12D /* LaunchScreen.storyboard */; };
 		0D3E8F79217AE961006DE12D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0D3E8F78217AE961006DE12D /* GoogleService-Info.plist */; };
+		0D3E8F7B217AEBF1006DE12D /* LandingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3E8F7A217AEBF1006DE12D /* LandingViewController.swift */; };
+		0D3E8F7E217AEC49006DE12D /* SpeechRecognizerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3E8F7D217AEC49006DE12D /* SpeechRecognizerManager.swift */; };
 		4097046C45A59D3B579C48EE /* Pods_Auris.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E51958B45DA8DB4F4F5C23F /* Pods_Auris.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0D3E8F60217AE881006DE12D /* Auris.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Auris.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D3E8F63217AE881006DE12D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0D3E8F65217AE881006DE12D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0D3E8F68217AE881006DE12D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0D3E8F6B217AE881006DE12D /* Auris.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Auris.xcdatamodel; sourceTree = "<group>"; };
 		0D3E8F6D217AE884006DE12D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0D3E8F70217AE884006DE12D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0D3E8F72217AE884006DE12D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0D3E8F78217AE961006DE12D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0D3E8F7A217AEBF1006DE12D /* LandingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LandingViewController.swift; sourceTree = "<group>"; };
+		0D3E8F7D217AEC49006DE12D /* SpeechRecognizerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechRecognizerManager.swift; sourceTree = "<group>"; };
 		29C44CF7E650DBE395A4B800 /* Pods-Auris.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Auris.release.xcconfig"; path = "Pods/Target Support Files/Pods-Auris/Pods-Auris.release.xcconfig"; sourceTree = "<group>"; };
 		2BA46E7E2CCFD51137465027 /* Pods-Auris.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Auris.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Auris/Pods-Auris.debug.xcconfig"; sourceTree = "<group>"; };
 		2E51958B45DA8DB4F4F5C23F /* Pods_Auris.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Auris.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -66,7 +68,8 @@
 			isa = PBXGroup;
 			children = (
 				0D3E8F63217AE881006DE12D /* AppDelegate.swift */,
-				0D3E8F65217AE881006DE12D /* ViewController.swift */,
+				0D3E8F7A217AEBF1006DE12D /* LandingViewController.swift */,
+				0D3E8F7C217AEC2F006DE12D /* Speech */,
 				0D3E8F67217AE881006DE12D /* Main.storyboard */,
 				0D3E8F6D217AE884006DE12D /* Assets.xcassets */,
 				0D3E8F6F217AE884006DE12D /* LaunchScreen.storyboard */,
@@ -75,6 +78,14 @@
 				0D3E8F6A217AE881006DE12D /* Auris.xcdatamodeld */,
 			);
 			path = Auris;
+			sourceTree = "<group>";
+		};
+		0D3E8F7C217AEC2F006DE12D /* Speech */ = {
+			isa = PBXGroup;
+			children = (
+				0D3E8F7D217AEC49006DE12D /* SpeechRecognizerManager.swift */,
+			);
+			path = Speech;
 			sourceTree = "<group>";
 		};
 		8CE49DD32165076636259FFB /* Pods */ = {
@@ -211,9 +222,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0D3E8F66217AE881006DE12D /* ViewController.swift in Sources */,
 				0D3E8F64217AE881006DE12D /* AppDelegate.swift in Sources */,
+				0D3E8F7B217AEBF1006DE12D /* LandingViewController.swift in Sources */,
 				0D3E8F6C217AE881006DE12D /* Auris.xcdatamodeld in Sources */,
+				0D3E8F7E217AEC49006DE12D /* SpeechRecognizerManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -34,6 +34,10 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>We need to use speech recognition to identify words and sounds around you in order to translate them into screen text</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>We need access to your microphone in order to execute speech recognition</string>
 	<key>UISupportedInterfaceOrientations~ipad</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
