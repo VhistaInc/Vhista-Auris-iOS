@@ -15,6 +15,7 @@
 		0D3E8F79217AE961006DE12D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0D3E8F78217AE961006DE12D /* GoogleService-Info.plist */; };
 		0D3E8F7B217AEBF1006DE12D /* LandingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3E8F7A217AEBF1006DE12D /* LandingViewController.swift */; };
 		0D3E8F7E217AEC49006DE12D /* SpeechRecognizerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3E8F7D217AEC49006DE12D /* SpeechRecognizerManager.swift */; };
+		0D3E8F83217AF58B006DE12D /* SegueConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3E8F82217AF58B006DE12D /* SegueConstants.swift */; };
 		4097046C45A59D3B579C48EE /* Pods_Auris.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E51958B45DA8DB4F4F5C23F /* Pods_Auris.framework */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +30,7 @@
 		0D3E8F78217AE961006DE12D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		0D3E8F7A217AEBF1006DE12D /* LandingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LandingViewController.swift; sourceTree = "<group>"; };
 		0D3E8F7D217AEC49006DE12D /* SpeechRecognizerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechRecognizerManager.swift; sourceTree = "<group>"; };
+		0D3E8F82217AF58B006DE12D /* SegueConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegueConstants.swift; sourceTree = "<group>"; };
 		29C44CF7E650DBE395A4B800 /* Pods-Auris.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Auris.release.xcconfig"; path = "Pods/Target Support Files/Pods-Auris/Pods-Auris.release.xcconfig"; sourceTree = "<group>"; };
 		2BA46E7E2CCFD51137465027 /* Pods-Auris.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Auris.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Auris/Pods-Auris.debug.xcconfig"; sourceTree = "<group>"; };
 		2E51958B45DA8DB4F4F5C23F /* Pods_Auris.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Auris.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -73,6 +75,7 @@
 				0D3E8F67217AE881006DE12D /* Main.storyboard */,
 				0D3E8F6D217AE884006DE12D /* Assets.xcassets */,
 				0D3E8F6F217AE884006DE12D /* LaunchScreen.storyboard */,
+				0D3E8F84217AF592006DE12D /* Constants */,
 				0D3E8F72217AE884006DE12D /* Info.plist */,
 				0D3E8F78217AE961006DE12D /* GoogleService-Info.plist */,
 				0D3E8F6A217AE881006DE12D /* Auris.xcdatamodeld */,
@@ -86,6 +89,14 @@
 				0D3E8F7D217AEC49006DE12D /* SpeechRecognizerManager.swift */,
 			);
 			path = Speech;
+			sourceTree = "<group>";
+		};
+		0D3E8F84217AF592006DE12D /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				0D3E8F82217AF58B006DE12D /* SegueConstants.swift */,
+			);
+			path = Constants;
 			sourceTree = "<group>";
 		};
 		8CE49DD32165076636259FFB /* Pods */ = {
@@ -226,6 +237,7 @@
 				0D3E8F7B217AEBF1006DE12D /* LandingViewController.swift in Sources */,
 				0D3E8F6C217AE881006DE12D /* Auris.xcdatamodeld in Sources */,
 				0D3E8F7E217AEC49006DE12D /* SpeechRecognizerManager.swift in Sources */,
+				0D3E8F83217AF58B006DE12D /* SegueConstants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

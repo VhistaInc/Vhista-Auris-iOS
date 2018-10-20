@@ -9,9 +9,21 @@
 import UIKit
 
 class LandingViewController: UIViewController {
+    
+    let speechRecognizerManager = SpeechRecognizerManager()
 
     override func viewDidLoad() {
         super.viewDidLoad()
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        speechRecognizerManager.askPermission { (authorized) in
+            if authorized {
+                self.performSegue(withIdentifier: Segues.LandingToHome, sender: nil)
+            } else {
+                print("UnAuth")
+            }
+        }
     }
 
 
